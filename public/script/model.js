@@ -57,7 +57,5 @@ angular.module('mars.model',[
 				})
 				return deferred.promise;
 		}
-		that.getDetail = function() {
-			return that.detail;
-		}
+		
 	}])
